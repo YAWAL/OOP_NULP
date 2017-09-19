@@ -91,5 +91,18 @@ public class House {
     public double calculateVolume(double length, double width, double height){
         return length*width*height;
     }
+
+    public void repaintHouse(House house, Color newColor){
+        Color currentColor = house.getColor();
+        if (currentColor == newColor){
+            System.out.println("Colour is the same as current");
+        }else {
+            house.setColor(newColor);
+            System.out.println("House with colour " + currentColor + " has been repainted with colour " + newColor);
+        }
+    }
+
+
+
 }
 
