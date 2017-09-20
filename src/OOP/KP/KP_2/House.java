@@ -102,6 +102,11 @@ public class House {
         }
     }
 
+    public House[] searchByColour(House[] houses){
+        //TODO implement this
+        return null;
+    }
+
 
 
 }
