@@ -107,6 +107,11 @@ public class House {
         return null;
     }
 
+    public House[] searchByStageCount(House[] houses){
+        //TODO implement this
+        return null;
+    }
+
 
 
 }
