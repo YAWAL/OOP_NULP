@@ -112,6 +112,11 @@ public class House {
         return null;
     }
 
+    public House[] searchByVolume(House[] houses){
+        //TODO implement this
+        return null;
+    }
+
 
 
 }
