@@ -117,6 +117,11 @@ public class House {
         return null;
     }
 
+    public House[] searchByStageSquare(House[] houses){
+        //TODO implement this
+        return null;
+    }
+
 
 
 }
