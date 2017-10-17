@@ -85,7 +85,7 @@ public class House {
     }
 
     public double calculateSquare(double length, double width){
-        return length*width
+        return length*width;
     }
 }
 
