@@ -83,5 +83,9 @@ public class House {
     public void setColor(Color color) {
         this.color = color;
     }
+
+    public double calculateSquare(double length, double width){
+        return length*width
+    }
 }
 
