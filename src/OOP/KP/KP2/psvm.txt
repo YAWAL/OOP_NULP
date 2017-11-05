@@ -1,0 +1,69 @@
+//repaintHouse()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses){
+            house.repaintHouse(house, Color.BLUE);
+            System.out.println("New color is: " + house.getColor());
+        }
+    }
+
+//changePrice()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses){
+            if (house.getStageCount() <= 2){
+                house.changePrice(house, 33333.33);
+            }else {
+                house.changePrice(house, 55555.55);
+            }
+        }
+    }
+
+//showInfo()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses){
+            house.showInfo();
+        }
+    }
+
+//searchByColor()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses){
+            Color color = Color.BLUE;
+            house.searchByColor(house, color);
+        }
+    }
+
+//searchByStageCount()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses){
+            int stages = 3;
+            house.searchByStageCount(house, stages);
+        }
+    }
+
+//searchByPrice()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses) {
+            house.searchByPrice(house, 879750);
+        }
+    }
+
+//searchBySquare()
+public static void main(String[] args) {
+        House[] houses = createHouses();
+
+        for (House house:houses) {
+            house.searchBySquare(house, 1292);
+        }
+    }
